@@ -126,7 +126,7 @@ async def укого(ctx, *, качество=""):
     
     chosen = random.choice(members)
     
-    response = f"**У {chosen.name} {качество}**"
+    response = f"**У (chosen.name) {качество}**"
     emojis = ["👔", "✨", "⭐", "🎯", "💫", "👑", "🌟", "🔥"]
     response += f" {random.choice(emojis)}"
     
